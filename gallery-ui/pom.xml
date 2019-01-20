@@ -11,5 +11,15 @@
     <artifactId>gallery-ui</artifactId>
 
 
-    
+    <dependencies>
+        <dependency>
+            <groupId>lt.andzej</groupId>
+            <artifactId>gallery-bl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 </project>
